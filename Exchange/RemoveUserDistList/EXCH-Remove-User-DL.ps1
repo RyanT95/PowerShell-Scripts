@@ -140,7 +140,7 @@ Function Remove-User-DL($Email)
     # Remove user from all Distribution Groups
     foreach ($group in $groups)
     {
-        #Remove-DistributionGroupMember -Identity "$group" -Member "$Email" -Confirm:$false
+        Remove-DistributionGroupMember -Identity "$group" -Member "$Email" -Confirm:$false
 
         Write-Host "Removed : $Email from $group"
     }
