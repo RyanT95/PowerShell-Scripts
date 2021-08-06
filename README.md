@@ -10,6 +10,7 @@ AD-GroupCopy.ps1  | Copies AD groups from one user to another
 AD-UserSearch.ps1 | Search for users by SAM name, email address, phone number and employee ID.
 EXCH-Add-Members-DL.ps1  | Adds members from a CSV to a distribution list
 EXCH-Add-Members-Mailbox.ps1  | Adds members from a CSV to a shared mailbox
+EXCH-Remove-User-DL.ps1  | Removes user from all distribution lists
 
 ## Authors
 
